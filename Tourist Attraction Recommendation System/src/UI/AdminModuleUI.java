@@ -1,4 +1,4 @@
-package touristattractionrecommendationsystem;
+package UI;
 
 public class AdminModuleUI extends UI {
 

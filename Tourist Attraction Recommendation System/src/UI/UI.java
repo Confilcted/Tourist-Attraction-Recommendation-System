@@ -1,4 +1,4 @@
-package touristattractionrecommendationsystem;
+package UI;
 
 import java.util.Scanner;
 
