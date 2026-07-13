@@ -7,7 +7,7 @@ package graph;
 import java.util.List;
 
 public class MainTest {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Graph g = new Graph();
 
         g.addVertex("Selangor", "STATE");
@@ -21,6 +21,6 @@ public class MainTest {
 
         List<String> attractions = g.getAttractionsByState("Selangor");
         System.out.println(attractions);
-    }
+    } */
 }
 

@@ -1,4 +1,4 @@
-package touristattractionrecommendationsystem;
+package UI;
 
 public class MainMenuUI extends UI {
     public static void mainMenuUI() {
