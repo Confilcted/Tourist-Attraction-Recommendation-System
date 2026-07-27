@@ -1,6 +1,4 @@
-public enum State {
-
-    PLACEHOLDER("Placeholder State", new City[0]);
+public class State {
  
     private final String name;
     private City[] city;
@@ -13,6 +11,10 @@ public enum State {
     public String getName() {
         return name;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
  
     public City[] getCity() {
         return city;
@@ -20,5 +22,10 @@ public enum State {
  
     public void setCity(City[] city) {
         this.city = city;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }
