@@ -10,8 +10,20 @@ public class City {
     public String getName() {
         return name;
     }
- 
+
+    public void setName (String name) {
+        this.name = name;
+    }
+    
     public Attraction[] getAttraction() {
         return attraction;
+    }
+    
+    public void setAttractions(Attraction[] attractions) {
+        this.attraction = attraction;
+    }
+    @Override
+    public String toString{
+        return name;
     }
 }
