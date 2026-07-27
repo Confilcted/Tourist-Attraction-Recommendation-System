@@ -1,17 +1,40 @@
 public class Attraction {
     private String name;
     private String description;
+    private double rating;
 
     public Attraction(String name, String description) {
         this.name = name;
         this.description = description;
+        this.rating = rating;
     }
 
-    public String getName() {
+    public String getName(){
         return name;
+    }
+
+    public void setName (String name){
+        this.name = name;
     }
 
     public String getDescription() {
         return description;
+    }
+
+    public void setDecription (String description){
+        this.description = description;
+    }
+
+    public double getRating(){
+        return rating;
+    }
+    
+    public void setRating (double rating){
+        this.rating = rating;
+    }
+
+    @Override
+    public string toString(){
+        return name + "(" + rating + ")";
     }
 }
